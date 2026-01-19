@@ -1,7 +1,7 @@
 quick docs
 
 ```lua
-local UILib = loadstring(game:HttpGet(''))()
+local UILib = loadstring(game:HttpGet('https://raw.githubusercontent.com/catowice/p/refs/heads/main/library.lua'))()
 UILib:ShowDemoMenu()
 ```
 
