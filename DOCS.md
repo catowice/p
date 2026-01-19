@@ -1,8 +1,8 @@
 quick docs
 
 ```lua
-local menu = loadstring(game:HttpGet('https://raw.githubusercontent.com/catowice/p/refs/heads/main/library.lua'))()
-menu:ShowDemoMenu()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/catowice/p/refs/heads/main/library.lua'))() -- returns Menu
+UILib:ShowDemoMenu()
 ```
 
 # Menu
