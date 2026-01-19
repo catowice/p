@@ -442,7 +442,7 @@ do
         }
     end
 
-    function UILib:_Slider(tabName, sectionName, label, value, step, min, max, appendix, callback)
+    function UILib:_Slider(tabName, sectionName, label, value, step, min, max, suffix, callback)
         local itemId = #self._tree[tabName]._items[sectionName]._items + 1
         local item = {
             type_ = 'slider',
@@ -451,7 +451,7 @@ do
             step = step,
             min = min,
             max = max,
-            appendix = appendix,
+            suffix = suffix or '',
             callback = callback
         }
 
@@ -1172,7 +1172,7 @@ do
                                 local tickColor = self._theming.accent
                                 self:_Draw(sectionItemId .. '_slider', 'gradient', nil, 20, 'vertical', sliderOrigin + Vector2.new(1, 1), Vector2.new(sliderSize.x * fillPercent - 2, sliderSize.y - 2), tickColor)
 
-                                local displayedValue = tostring(itemValue) .. sectionItem.appendix
+                                local displayedValue = tostring(itemValue) .. sectionItem.suffix
                                 -- local valueSize = self:_GetTextBounds(displayedValue, nil, 12)
                                 self:_Draw(sectionItemId .. '_value', 'text', self._theming.text, 22, sliderOrigin + Vector2.new(sliderSize.x * fillPercent, sliderSize.y), displayedValue, true, 'center', 12)
 

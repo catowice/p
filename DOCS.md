@@ -27,7 +27,7 @@ Menu:Section(sectionName: string) -> Section
 # Section
 ```lua
 Section:Toggle(label: string, value: boolean, callback: function) -> Item
-Section:Slider(label: string, value: number, step: number, min: number, max: number, appendix: string, callback: function) -> Item
+Section:Slider(label: string, value: number, step: number, min: number, max: number, suffix: string, callback: function) -> Item
 Section:Dropdown(label: string, value: table, choices: table, multi: boolean, callback: function) -> Item
 Section:Button(label: string, callback: function) -> Item
 ```
