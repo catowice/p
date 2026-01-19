@@ -36,7 +36,7 @@ Section:Button(label: string, callback: function) -> Item
 ```lua
 -- supports: Toggle
 Item:AddColorpicker(label: string, value: Color3, callback: function) -> Item
-Item:AddKeybind(value: string, callback: function) -> Item
+Item:AddKeybind(value: string, mode: string, canChange: boolean, callback: function) -> Item
 
 -- if item takes in a value
 Item:Set(value: any)

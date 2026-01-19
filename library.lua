@@ -1023,7 +1023,7 @@ do
                                                 itemKeybind.mode = newValue[1]
 
                                                 if itemKeybind.callback then
-                                                    itemKeybind.callback(self._inputs[itemValue] and self._inputs[itemValue].id or nil, newValue)
+                                                    itemKeybind.callback(self._inputs[itemKeybind.value] and self._inputs[itemKeybind.value].id or nil, newValue[1])
                                                 end
                                             end)
                                             
