@@ -26,10 +26,11 @@ Menu:Section(sectionName: string) -> Section
 
 # Section
 ```lua
-Section:Toggle(label: string, value: boolean, callback: function) -> Item
+Section:Toggle(label: string, value: boolean, callback: function, unsafe: bool, tooltip: str) -> Item
 Section:Slider(label: string, value: number, step: number, min: number, max: number, suffix: string, callback: function) -> Item
 Section:Dropdown(label: string, value: table, choices: table, multi: boolean, callback: function) -> Item
 Section:Button(label: string, callback: function) -> Item
+Section:Textbox(label: string, value: boolean, callback: function) -> Item
 ```
 
 # Item
@@ -37,6 +38,9 @@ Section:Button(label: string, callback: function) -> Item
 -- supports: Toggle
 Item:AddColorpicker(label: string, value: Color3, callback: function) -> Item
 Item:AddKeybind(value: string, mode: string, canChange: boolean, callback: function) -> Item
+
+-- supports: Dropdown
+Item:UpdateChoices(newChoices: table)
 
 -- if item takes in a value
 Item:Set(value: any)

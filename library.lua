@@ -20,13 +20,18 @@ UILib = {
     _inputs = {['m1']={id=0x01,held=false,click=false},['m2']={id=0x02,held=false,click=false},['mb']={id=0x04,held=false,click=false},['unbound']={id=0x08,held=false,click=false},['tab']={id=0x09,held=false,click=false},['enter']={id=0x0D,held=false,click=false},['shift']={id=0x10,held=false,click=false},['ctrl']={id=0x11,held=false,click=false},['alt']={id=0x12,held=false,click=false},['pause']={id=0x13,held=false,click=false},['capslock']={id=0x14,held=false,click=false},['esc']={id=0x1B,held=false,click=false},['space']={id=0x20,held=false,click=false},['pageup']={id=0x21,held=false,click=false},['pagedown']={id=0x22,held=false,click=false},['end']={id=0x23,held=false,click=false},['home']={id=0x24,held=false,click=false},['left']={id=0x25,held=false,click=false},['up']={id=0x26,held=false,click=false},['right']={id=0x27,held=false,click=false},['down']={id=0x28,held=false,click=false},['insert']={id=0x2D,held=false,click=false},['delete']={id=0x2E,held=false,click=false},['0']={id=0x30,held=false,click=false},['1']={id=0x31,held=false,click=false},['2']={id=0x32,held=false,click=false},['3']={id=0x33,held=false,click=false},['4']={id=0x34,held=false,click=false},['5']={id=0x35,held=false,click=false},['6']={id=0x36,held=false,click=false},['7']={id=0x37,held=false,click=false},['8']={id=0x38,held=false,click=false},['9']={id=0x39,held=false,click=false},['a']={id=0x41,held=false,click=false},['b']={id=0x42,held=false,click=false},['c']={id=0x43,held=false,click=false},['d']={id=0x44,held=false,click=false},['e']={id=0x45,held=false,click=false},['f']={id=0x46,held=false,click=false},['g']={id=0x47,held=false,click=false},['h']={id=0x48,held=false,click=false},['i']={id=0x49,held=false,click=false},['j']={id=0x4A,held=false,click=false},['k']={id=0x4B,held=false,click=false},['l']={id=0x4C,held=false,click=false},['m']={id=0x4D,held=false,click=false},['n']={id=0x4E,held=false,click=false},['o']={id=0x4F,held=false,click=false},['p']={id=0x50,held=false,click=false},['q']={id=0x51,held=false,click=false},['r']={id=0x52,held=false,click=false},['s']={id=0x53,held=false,click=false},['t']={id=0x54,held=false,click=false},['u']={id=0x55,held=false,click=false},['v']={id=0x56,held=false,click=false},['w']={id=0x57,held=false,click=false},['x']={id=0x58,held=false,click=false},['y']={id=0x59,held=false,click=false},['z']={id=0x5A,held=false,click=false},['numpad0']={id=0x60,held=false,click=false},['numpad1']={id=0x61,held=false,click=false},['numpad2']={id=0x62,held=false,click=false},['numpad3']={id=0x63,held=false,click=false},['numpad4']={id=0x64,held=false,click=false},['numpad5']={id=0x65,held=false,click=false},['numpad6']={id=0x66,held=false,click=false},['numpad7']={id=0x67,held=false,click=false},['numpad8']={id=0x68,held=false,click=false},['numpad9']={id=0x69,held=false,click=false},['multiply']={id=0x6A,held=false,click=false},['add']={id=0x6B,held=false,click=false},['separator']={id=0x6C,held=false,click=false},['subtract']={id=0x6D,held=false,click=false},['decimal']={id=0x6E,held=false,click=false},['divide']={id=0x6F,held=false,click=false},['f1']={id=0x70,held=false,click=false},['f2']={id=0x71,held=false,click=false},['f3']={id=0x72,held=false,click=false},['f4']={id=0x73,held=false,click=false},['f5']={id=0x74,held=false,click=false},['f6']={id=0x75,held=false,click=false},['f7']={id=0x76,held=false,click=false},['f8']={id=0x77,held=false,click=false},['f9']={id=0x78,held=false,click=false},['f10']={id=0x79,held=false,click=false},['f11']={id=0x7A,held=false,click=false},['f12']={id=0x7B,held=false,click=false},['numlock']={id=0x90,held=false,click=false},['scrolllock']={id=0x91,held=false,click=false},['lshift']={id=0xA0,held=false,click=false},['rshift']={id=0xA1,held=false,click=false},['lctrl']={id=0xA2,held=false,click=false},['rctrl']={id=0xA3,held=false,click=false},['lalt']={id=0xA4,held=false,click=false},['ralt']={id=0xA5,held=false,click=false},['semicolon']={id=0xBA,held=false,click=false},['plus']={id=0xBB,held=false,click=false},['comma']={id=0xBC,held=false,click=false},['minus']={id=0xBD,held=false,click=false},['period']={id=0xBE,held=false,click=false},['slash']={id=0xBF,held=false,click=false},['tilde']={id=0xC0,held=false,click=false},['lbracket']={id=0xDB,held=false,click=false},['backslash']={id=0xDC,held=false,click=false},['rbracket']={id=0xDD,held=false,click=false},['quote']={id=0xDE,held=false,click=false}},
     _slider_drag = nil,
     _menu_drag = nil,
+    _input_ctx = nil,
     _overwrite_menu_key = false,
     _menu_key = 'f1',
     _active_dropdown = nil,
     _active_colorpicker = nil,
     _copied_color = nil,
+    _tooltip_hover_time = nil,
+    _tooltip_mouse_prev = nil,
 
     title = 'My menu',
+    _custom_title_enabled = false,
+    _custom_title = '',
     w = 400,
     h = 480,
     x = 20,
@@ -35,6 +40,7 @@ UILib = {
     _tab_h = 40,
     _theming = {
         accent = Color3.fromRGB(0, 128, 255),
+        unsafe = Color3.fromRGB(255, 255, 51),
         body = Color3.fromRGB(5, 5, 5),
         text = Color3.fromRGB(255, 255, 255),
         subtext = Color3.fromRGB(120, 120, 120),
@@ -180,7 +186,6 @@ do
             end
 
             local textPosition, textContent, textOutline, textAlign, textSize, textFontFace = ...
-
             
             if textAlign == 'center' then
                 draw.Center = true
@@ -333,6 +338,8 @@ end
 
 do
     function UILib:_SpawnColorpicker(position, label, value, callback)
+        self:_RemoveColorpicker()
+
         local h, s, v = 0, 0, 0
         if value then
             h, s, v = rgbToHsv(value.R, value.G, value.B)
@@ -357,6 +364,8 @@ do
     end
 
     function UILib:_SpawnDropdown(position, width, value, choices, multi, callback)
+        self:_RemoveDropdown()
+
         local item = {
             position = position,
             width = width,
@@ -375,13 +384,15 @@ do
         self:_UndrawStartsWith('dropdown_')
     end
 
-    function UILib:_Toggle(tabName, sectionName, label, value, callback)
+    function UILib:_Toggle(tabName, sectionName, label, value, callback, unsafe, tooltip)
         local itemId = #self._tree[tabName]._items[sectionName]._items + 1
         local item = {
             type_ = 'toggle',
             label = label,
             value = value,
-            callback = callback
+            callback = callback,
+            unsafe = unsafe or false,
+            tooltip = tooltip,
         }
 
         table.insert(self._tree[tabName]._items[sectionName]._items, item)
@@ -488,6 +499,9 @@ do
                 if self._tree[tabName]._items[sectionName]._items[itemId].callback then
                      self._tree[tabName]._items[sectionName]._items[itemId].callback(newValue)
                 end
+            end,
+            UpdateChoices = function(_, newChoices)
+                self._tree[tabName]._items[sectionName]._items[itemId].choices = newChoices
             end
         }
     end
@@ -503,6 +517,29 @@ do
         table.insert(self._tree[tabName]._items[sectionName]._items, item)
 
         return {}
+    end
+
+    function UILib:_Textbox(tabName, sectionName, label, value, callback)
+        local itemId = #self._tree[tabName]._items[sectionName]._items + 1
+        local item = {
+            type_ = 'textbox',
+            label = label,
+            value = value,
+            autocomplete = autocomplete,
+            callback = callback
+        }
+
+        table.insert(self._tree[tabName]._items[sectionName]._items, item)
+
+        return {
+            Set = function(_, newValue)
+                self._tree[tabName]._items[sectionName]._items[itemId].value = newValue
+
+                if self._tree[tabName]._items[sectionName]._items[itemId].callback then
+                     self._tree[tabName]._items[sectionName]._items[itemId].callback(newValue)
+                end
+            end
+        }
     end
 
     function UILib:_Section(tabName, sectionName)
@@ -522,6 +559,9 @@ do
             end,
             Button = function(_, ...)
                 return self:_Button(tabName, sectionName, ...)
+            end,
+            Textbox = function(_, ...)
+                return self:_Textbox(tabName, sectionName, ...)
             end,
         }
     end
@@ -596,9 +636,15 @@ do
         menuSection:Toggle('Watermark', true, function(newValue)
             self:SetWatermarkEnabled(newValue)
         end)
+        menuSection:Toggle('Custom menu title', self._custom_title_enabled, function(newValue)
+            self._custom_title_enabled = newValue
+        end)
+        self._custom_title = self.title
+        menuSection:Textbox('Menu title', self.title, function(newValue)
+            self._custom_title = newValue
+        end)
 
         local themingSection = settingsTab:Section('Theming')
-
         local themes = {'Default', 'Gamesense', 'Bitchbot'}
         local themingTextColor, themingBodyColor, themingAccentColor, themingSubtextColor, themingBorder0Color, themingBorder1Color, themingSurface0Color, themingSurface1Color, themingCrustColor
         local themingTheme = themingSection:Dropdown('Theme', themes[1], themes, false, function(newValue)
@@ -698,6 +744,8 @@ do
     end
 
     function UILib:Step()
+        local menuTitle = self._custom_title_enabled and self._custom_title or self.title
+
         -- input processing
         setrobloxinput(not self._menu_open)
         for keycode, inputData in pairs(self._inputs) do
@@ -729,13 +777,13 @@ do
 
         -- draw watermark
         local watermarkPos = Vector2.new(20, 20)
-        local watermarkSize = self:_GetTextBounds(self.title) + Vector2.new(self._padding * 2, self._padding * 2)
+        local watermarkSize = self:_GetTextBounds(menuTitle) + Vector2.new(self._padding * 2, self._padding * 2)
         if self._watermark_enabled then
             self:_Draw('watermark_crust', 'rect', self._theming.crust, 102, watermarkPos, watermarkSize, false)
             self:_Draw('watermark_border', 'rect', self._theming.border0, 102, watermarkPos + Vector2.new(1, 1), watermarkSize - Vector2.new(2, 2), false)
             self:_Draw('watermark_accent', 'line', self._theming.accent, 103, watermarkPos + Vector2.new(2, 2), watermarkPos + Vector2.new(watermarkSize.x - 2, 2))
             self:_Draw('watermark_body', 'gradient', nil, 101, 'vertical', watermarkPos + Vector2.new(2, 2), watermarkSize - Vector2.new(4, 4), self._theming.surface0)
-            self:_Draw('watermark_text', 'text', self._theming.text, 103, watermarkPos + Vector2.new(self._padding, self._padding + 2), self.title, true)
+            self:_Draw('watermark_text', 'text', self._theming.text, 103, watermarkPos + Vector2.new(self._padding, self._padding + 2), menuTitle, true)
         else
             self:_UndrawStartsWith('watermark_')
         end
@@ -915,7 +963,7 @@ do
             end
 
             -- menu contents
-            local menuTitleSize = self:_GetTextBounds(self.title)
+            local menuTitleSize = self:_GetTextBounds(menuTitle)
 
             -- body outer
             self:_Draw('menu_crust', 'rect', self._theming.crust, 1, Vector2.new(self.x, self.y), Vector2.new(self.w, self.h), false)
@@ -958,6 +1006,7 @@ do
                 if not isOpen and clickFrame and self:_IsMouseWithinBounds(tabPosition, tabSize) then
                     self._open_tab = tabName
                     self._tab_change_at = os.clock()
+                    self._input_ctx = nil
                 end
 
                 -- tab content
@@ -1092,7 +1141,7 @@ do
                                     self:_Draw(sectionItemId .. '_colorpicker_border', 'rect', self._theming.crust, 21, colorpickerOrigin, colorpickerSize, false)
                                 end
 
-                                local labelColor = itemValue and self._theming.text or self._theming.subtext
+                                local labelColor = sectionItem.unsafe and self._theming.unsafe or (itemValue and self._theming.text or self._theming.subtext)
                                 if not itemColorpicker or not itemColorpicker.overwrite then
                                     local isHoveringTick = self:_IsMouseWithinBounds(tickOrigin, tickSize)
                                     if isHoveringTick and clickFrame then
@@ -1113,8 +1162,45 @@ do
                                     labelColor = self._theming.text
                                 end
                                 
-                                self:_Draw(sectionItemId .. '_label', 'text', labelColor, 20, sectionItemOrigin + Vector2.new(tickSize.x + self._padding, 0), sectionItem.label, true)
+                                local labelSize = self:_GetTextBounds(sectionItem.label)
+                                local labelPosition = sectionItemOrigin + Vector2.new(tickSize.x + self._padding, 0)
 
+                                if sectionItem.tooltip then
+                                    local hintSize = self:_GetTextBounds('(?)', nil, 10)
+                                    local hintPosition = labelPosition + Vector2.new(labelSize.x + hintSize.x - 4, hintSize.y / 2)
+                                    local isHoveringHint = self:_IsMouseWithinBounds(hintPosition - Vector2.new(3, 3), hintSize + Vector2.new(6, 6))
+
+                                    if isHoveringHint then
+                                        local mousePos = self:_GetMousePos()
+                                        if not self._tooltip_mouse_prev then
+                                            -- init tooltip
+                                            self._tooltip_mouse_prev = mousePos
+                                            self._tooltip_hover_time = os.clock()
+                                        elseif self._tooltip_mouse_prev.x ~= mousePos.x then
+                                            -- cancel tooltip
+                                            self._tooltip_mouse_prev = nil
+                                            self._tooltip_hover_time = nil
+                                        elseif os.clock() - self._tooltip_hover_time > 0.2 then
+                                            local tooltipFade =  1 - ((self._tooltip_hover_time + 0.2) - (os.clock() - 0.25)) / 0.25
+                                            if tooltipFade < 1.1 then
+                                                self:_SetOpacityStartsWith('menu_tooltip', math.abs((self._menu_open and 0 or 1) - clamp(tooltipFade, 0, 1)))
+                                            end
+
+                                            local tooltipOrigin = Vector2.new(mousePos.x + 11, mousePos.y)
+                                            local tooltipSize = self:_GetTextBounds(sectionItem.tooltip)
+                                            self:_Draw('menu_tooltip_body', 'rect', self._theming.surface1, 1000, tooltipOrigin, tooltipSize + Vector2.new(self._padding, self._padding), true)
+                                            self:_Draw('menu_tooltip_crust', 'rect', self._theming.crust, 1001, tooltipOrigin, tooltipSize + Vector2.new(self._padding, self._padding), false)
+                                            self:_Draw('menu_tooltip_border', 'rect', self._theming.border1, 1002, tooltipOrigin + Vector2.new(1, 1), tooltipSize + Vector2.new(self._padding - 2, self._padding - 2), false)
+                                            self:_Draw('menu_tooltip_text', 'text', self._theming.text, 1003, tooltipOrigin + Vector2.new(3, tooltipSize.y / 2), sectionItem.tooltip, true)
+                                        end
+                                    else
+                                        self:_UndrawStartsWith('menu_tooltip')
+                                    end
+
+                                    self:_Draw(sectionItemId .. '_hint', 'text', self._theming.subtext, 21, hintPosition, '(?)', true, 'center', 10)
+                                end
+
+                                self:_Draw(sectionItemId .. '_label', 'text', labelColor, 20, labelPosition, sectionItem.label, true)
                                 sectionHeight = sectionHeight + self._font_size + self._padding
                             elseif itemType == 'slider' then
                                 local labelSize = self:_GetTextBounds(sectionItem.label)
@@ -1214,7 +1300,7 @@ do
                                     displayedValue = tostring(#itemValue) .. ' item' .. (#itemValue == 1 and '' or 's')
                                 end
 
-                                self:_Draw(sectionItemId .. '_value', 'text', self._theming.text, 21, dropdownOrigin + Vector2.new(self._padding, valueSize.y/2), displayedValue, true)
+                                self:_Draw(sectionItemId .. '_value', 'text', self._theming.text, 21, dropdownOrigin + Vector2.new(4, valueSize.y/2 - 2), displayedValue, true)
 
                                 self:_Draw(sectionItemId .. '_border', 'rect', self._theming.crust, 21, dropdownOrigin, dropdownSize, false)
                                 self:_Draw(sectionItemId .. '_label', 'text', self._theming.text, 20, sectionItemOrigin + Vector2.new(self._padding + extraPadding, 0), sectionItem.label, true)
@@ -1254,6 +1340,99 @@ do
                                 self:_Draw(sectionItemId .. '_text', 'text', self._theming.text, 21, buttonOrigin + Vector2.new(buttonSize.x/2, buttonSize.y/2), sectionItem.label, true, 'center')
 
                                 sectionHeight = sectionHeight + buttonSize.y + self._padding * 2
+                            elseif itemType == 'textbox' then
+                                local textboxOrigin = Vector2.new(sectionItemOrigin.x, sectionItemOrigin.y)
+                                local textboxSize = Vector2.new(sectionWidth - self._padding * 2, self._font_size + self._padding)
+
+                                local isHoveringTextbox = self:_IsMouseWithinBounds(textboxOrigin, textboxSize)
+                                local isTyping = self._input_ctx == sectionItemId
+
+                                local cursor = math.floor(os.clock() * 2) % 2 == 0 and '|' or ' '
+                                local displayedValue = isTyping and ((itemValue or '') .. cursor) or ((itemValue ~= '' and itemValue or sectionItem.label) .. ' ')
+                                local valueColor = isTyping and self._theming.text or ((itemValue and itemValue ~= '') and self._theming.text or self._theming.subtext)
+
+                                if self:_GetTextBounds(displayedValue).x > textboxSize.x then
+                                    for i = 1, #displayedValue do
+                                        local sub = displayedValue:sub(i)
+                                        if self:_GetTextBounds(sub).x <= textboxSize.x - 4 then
+                                            displayedValue = sub
+                                            break
+                                        end
+                                    end
+                                end
+
+                                local valueSize = self:_GetTextBounds(displayedValue)
+
+                                if self:_IsKeyPressed('m1') then -- force click frame
+                                    if isHoveringTextbox then
+                                        self._input_ctx = sectionItemId
+                                        clickFrame = false
+                                    elseif isTyping then
+                                        self._input_ctx = nil
+                                        self:_RemoveDropdown()
+                                        isTyping = false
+                                        clickFrame = false
+                                    end
+                                elseif ctxFrame then
+                                    if isHoveringTextbox then
+                                        self:_SpawnDropdown(self:_GetMousePos(), 60, {}, {'Copy', 'Clear'}, false, function(newValue)
+                                            if newValue[1] == 'Copy' then
+                                                setclipboard(tostring(itemValue))
+                                                self:Notification('Text copied to clipboard', 5)
+                                            elseif newValue[1] == 'Clear' then
+                                                sectionItem.value = ''
+
+                                                if sectionItem.callback then
+                                                    sectionItem.callback('')
+                                                end
+                                            end
+                                        end)
+
+                                        ctxFrame = false
+                                    end
+                                end
+
+                                if isTyping then
+                                    local charMap = {space=' ',dash='-',colon=':',period='.',comma=',',slash='/',semicolon=';',quote='\'',leftbracket='[',rightbracket=']',backslash='\\',equals='=',minus='-'}
+                                    local shiftMap ={['1']='!',['2']='@',['3']='#',['4']='$',['5']='%',['6']='^',['7']='&',['8']='*',['9']='(',['0']=')',['-']='_',['=']='+',['[']='{',[']']='}',[';']=':',['\'']='"',[',']='<',['.']='>',['/']='?',['\\']='|'}
+
+                                    local newValue = itemValue or ''
+                                    local shiftCtx = self:_IsKeyHeld('lshift') or self:_IsKeyHeld('rshift')
+                                    for char, _ in pairs(self._inputs) do
+                                        if self:_IsKeyPressed(char) then
+                                            local mapped = charMap[char] or char
+                                            if mapped == 'enter' then
+                                                -- done/cancel input
+                                                self._input_ctx = nil
+                                                break
+                                            elseif mapped == 'unbound' then
+                                                -- backspace
+                                                newValue = newValue:sub(1, -2)
+                                            elseif mapped then
+                                                -- input
+                                                if #mapped == 1 then
+                                                    if shiftCtx and shiftMap[mapped] then
+                                                        mapped = shiftMap[mapped]
+                                                    elseif shiftCtx then
+                                                        mapped = mapped:upper()
+                                                    end
+                                                    newValue = newValue .. mapped
+                                                end
+                                            end
+
+                                            if sectionItem.callback then
+                                                sectionItem.callback(newValue)
+                                            end
+
+                                            sectionItem.value = newValue
+                                        end
+                                    end
+                                end
+
+                                self:_Draw(sectionItemId .. '_input', 'text', valueColor, 22, textboxOrigin + Vector2.new(4, valueSize.y/2 - 2), displayedValue, true)
+                                self:_Draw(sectionItemId .. '_body', 'rect', self._theming.crust, 21, textboxOrigin, textboxSize, true)
+
+                                sectionHeight = sectionHeight + textboxSize.y + self._padding
                             end
                         end
 
@@ -1313,10 +1492,11 @@ do
 
         local playground = self:Tab('Playground')
         local el = playground:Section('Section 1')
-        local toggleOne = el:Toggle('Toggle #1', false)
+        local toggleOne = el:Toggle('Toggle #1', false, nil, true, 'This feature has a tooltip, wow!')
         local key = toggleOne:AddKeybind()
         local toggleTwo = el:Toggle('Toggle #2', false)
         local color = toggleTwo:AddColorpicker('ESP Color')
+        el:Textbox('lol', nil, {'apples', 'oranges', 'bananas'}, nil)
         local dragMe = el:Slider('Drag me', 10, 1, 1, 360, 'deg')
         local pickMe = el:Dropdown('Pick me', {'1'}, {'1', '2', '3', '4', '5', 'verybigitem'}, false)
         el:Button('Rollback', function()
