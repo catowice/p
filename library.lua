@@ -1496,7 +1496,7 @@ do
         local key = toggleOne:AddKeybind()
         local toggleTwo = el:Toggle('Toggle #2', false)
         local color = toggleTwo:AddColorpicker('ESP Color')
-        el:Textbox('lol', nil, {'apples', 'oranges', 'bananas'}, nil)
+        el:Textbox('Hint', nil, nil)
         local dragMe = el:Slider('Drag me', 10, 1, 1, 360, 'deg')
         local pickMe = el:Dropdown('Pick me', {'1'}, {'1', '2', '3', '4', '5', 'verybigitem'}, false)
         el:Button('Rollback', function()
